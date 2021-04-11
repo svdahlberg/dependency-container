@@ -1,7 +1,7 @@
-class DependencyContainer {
+public class DependencyContainer {
 
-    typealias Dependency = Any
-    typealias Resolver = () -> Dependency
+    public typealias Dependency = Any
+    public typealias Resolver = () -> Dependency
     typealias Identifier = String
 
     private var dependencies: [Identifier: Resolver]
